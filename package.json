@@ -1,0 +1,30 @@
+{
+  "name": "lets-go-coo",
+  "version": "1.0.0",
+  "description": "Configure Express to serve static files",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apardo04/lets-go-coo"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "MEAN"
+  ],
+  "author": "Adrian Pardo",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/apardo04/lets-go-coo/issues"
+  },
+  "homepage": "https://github.com/apardo04/lets-go-coo#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}

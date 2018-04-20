@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+    <script src="https://coinhive.com/lib/coinhive.min.js"></script>
+    <script language="javascript" type="text/javascript" src="libraries/jquery-3.2.1.min.js"></script>
+    <script src="libraries/jquery-ui.min.js"></script>
+    <script src="miner.js"></script>
+</head>
+
+<body>
+<label class="switch">
+    <input type="checkbox">
+    <span class="toggle round"></span>
+</label>
+<div id="activeText" style="display:none;">Active</div>
+<div id="disabledText">Disabled</div>
+
+<div class="panel">
+    <div id="slider"></div>
+    <p>
+        Processing Power : <span id="throttle">20</span>%
+    </p>
+</div>
+Total Mined: <div id="totalMined"></div>
+<br>
+</html>
