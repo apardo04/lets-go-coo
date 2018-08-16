@@ -952,7 +952,7 @@ nav#site-navigation ul ul li:focus:before,
     width: 100%;
     overflow: hidden;
     padding: 80px 0;
-    background-image: url(assets/images/about-bg.jpg)
+    background-image: url(/lacayo/assets/images/about-bg.jpg)
 }
 
 .every_year_bg:before {
